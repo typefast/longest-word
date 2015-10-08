@@ -1,0 +1,44 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.5em;
+	padding: .25em;
+	display: inline-block;
+	color: #17e;
+}
+
+#btn {
+	font-size: 1em;
+	margin-top: 5em;
+	padding: 1.5em 2.5em;
+	font-weight: bold;
+	
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+
+	background: #cf3f3f;
+}
+
+#btn:hover {
+	background-color: firebrick;
+}
+
+#btn:active {
+	transform: scale(.85);
+	transition: all .25s ease;
+}
